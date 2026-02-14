@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: springboot-container
-        image: angshuman/springboot-demo:latest
+        image: ansdockerjan547/springboot-demo:latest
         ports:
         - containerPort: 8080
