@@ -8,11 +8,7 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/angs-skype/spring-boot-project2.git'
-            }
-        }
+        
 
         stage('Build Application') {
             steps {
