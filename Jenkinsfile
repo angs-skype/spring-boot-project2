@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "angshuman/springboot-demo"
+        IMAGE_NAME = "ansdockerjan547/springboot-demo"
         IMAGE_TAG = "latest"
     }
 
